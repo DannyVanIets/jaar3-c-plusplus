@@ -5,3 +5,4 @@
 *.sln
 *.db
 *.suo
+*.ipch
