@@ -4,3 +4,10 @@
 *.db
 *.suo
 *.ipch
+*.tlog
+*.exe
+*.ilk
+*.log
+*.obj
+*.pdb
+*.idb
