@@ -1,7 +1,7 @@
 
-*/.suo
-*/.db
-*/.user
-*/.filters
-*/.vcxproj
-*/.sln
+*.user
+*.filters
+*.vcxproj
+*.sln
+*.db
+*.suo
