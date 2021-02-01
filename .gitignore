@@ -1,7 +1,6 @@
 
 *.user
 *.filters
-*.vcxproj
 *.db
 *.suo
 *.ipch
