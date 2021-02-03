@@ -1,0 +1,2 @@
+D:\code\git\jaar3-c-plusplus\HelloWorldApplication\Debug\HelloWorldApplication.exe
+D:\code\git\jaar3-c-plusplus\HelloWorldApplication\Debug\HelloWorldApplication.pdb
