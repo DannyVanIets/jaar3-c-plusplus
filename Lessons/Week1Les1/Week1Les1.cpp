@@ -7,19 +7,19 @@ void foo(int A[], int length); // This is a prototype. It will not return anythi
 int main()
 {
 	int x = 0;
-    cout << "Hello World!\n" << x << " next line" << endl;
-	
+	cout << "Hello World!\n" << x << " next line" << endl;
+
 	int A[100];
 	int B[] = { 1, 2, 3, 4, 5, 6 };
-	
+
 	/*for(int i = 0; i < 100; i++)
 	{
 		cout << A[i] << endl;
 	}*/
-	
+
 	foo(B, 6);
 	foo(A, 100);
-	
+
 	return 0;
 }
 

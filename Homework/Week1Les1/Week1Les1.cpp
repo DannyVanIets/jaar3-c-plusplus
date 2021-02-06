@@ -93,7 +93,7 @@ void exercise6_print_array(int numbers[], int size)
 
 void exercise7(int a, int b)
 {
-	int biggestNumber = 0;
+	int biggestNumber;
 	if (a > b)
 	{
 		biggestNumber = a;
@@ -106,7 +106,7 @@ void exercise7(int a, int b)
 	int gcd = 1;
 	for (int i = 2; i <= biggestNumber; i++)
 	{
-		if(a % i == 0 && b % i == 0)
+		if (a % i == 0 && b % i == 0)
 		{
 			gcd = i;
 		}
@@ -116,7 +116,7 @@ void exercise7(int a, int b)
 
 void exercise8(int a, int b)
 {
-	int biggestNumber = 0;
+	int biggestNumber;
 	if (a > b)
 	{
 		biggestNumber = a;
@@ -129,7 +129,7 @@ void exercise8(int a, int b)
 	int lcm = 1;
 	for (int i = biggestNumber; i > 0; i--)
 	{
-		for(int j = biggestNumber; j > 0; j--)
+		for (int j = biggestNumber; j > 0; j--)
 		{
 			if (a * i == b * j)
 			{
@@ -142,25 +142,26 @@ void exercise8(int a, int b)
 
 int main()
 {
+	// Les 1 exercises
 	cout << exercise1(4, 5) << endl;
-	
+
 	exercise2(2);
 	exercise2(3);
-	
+
 	cout << exercise3(3, 4) << endl;
-	
+
 	cout << exercise4(3) << endl;
 	cout << exercise4(4) << endl;
 	cout << exercise4(23) << endl;
-	
+
 	int array_with_numbers[] = { 29, 25, 30, 23, 27 };
 	cout << exercise5(array_with_numbers, 27) << endl;
 	cout << exercise5(array_with_numbers, 31) << endl;
-	
+
 	int numbers[] = { 7, 2, 5, 24567, 1 };
 	exercise6(array_with_numbers, 5);
 	exercise6(numbers, 5);
-	
+
 	exercise7(10, 12); // 2
 	exercise7(23, 59); // 1
 	exercise7(40, 4); // 4
