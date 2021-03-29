@@ -138,17 +138,17 @@ void exercise9LoadBinaryFile()
 int main()
 {
 	// Les 2 exercises
-	cout << exercise2Fractions(2, 4) << endl;
-	cout << exercise2Fractions(3, 9) << endl;
+	//cout << exercise2Fractions(2, 4) << endl;
+	//cout << exercise2Fractions(3, 9) << endl;
 
-	exercise3Names();
+	//exercise3Names();
 
 	char test1[10];
 	char test2[10];
-	strcpy_s(test1, "racecar");
-	strcpy_s(test2, "nope");
-	exercise4Palindrome(test1);
-	exercise4Palindrome(test2);
+	//strcpy_s(test1, "racecar");
+	//strcpy_s(test2, "nope");
+	//exercise4Palindrome(test1);
+	//exercise4Palindrome(test2);
 
 	//exercise5ReadingTxtFile();
 
