@@ -1,6 +1,9 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+#include <queue>
+
+#include "Templateclass.h"
 
 using namespace std;
 
@@ -92,4 +95,16 @@ int main()
 
 	cout << call(&sqrt, double(4)) << endl;
 	cout << call(&sin, double(1)) << endl;
+
+	Queue<int> q;
+	q.add(5);
+	q.add(3);
+	q.add(7);
+
+	cout << "Start: " << endl;
+	q.Print();
+	q.remove();
+	
+	cout << "After remove." << endl;
+	q.Print();
 }
