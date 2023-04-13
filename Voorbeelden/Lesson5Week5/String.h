@@ -18,9 +18,9 @@ public: // Use const as much as possible!
 	
 	String operator=(const String& s); // This is used if you assign it not straight away, but later in the code.
 	String operator=(const char c);
-	String operator+=(const String&, const String&); // To be implemented.
-	char* operator[](const int index) const; // To be implemented.
-	bool Search(const String&) const; // To be implemented.
+	//String operator+=(const String&, const String&); // To be implemented.
+	//char* operator[](const int index) const; // To be implemented.
+	//bool Search(const String&) const; // To be implemented.
 	
 	char* ToString(); // If we were to put const here, it would say it wouldn't change.
 

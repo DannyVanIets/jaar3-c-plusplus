@@ -1,0 +1,18 @@
+This is attempt 9 of 89.
+This is attempt 8 of 89.
+This is attempt 7 of 89.
+This is attempt 6 of 89.
+This is attempt 5 of 89.
+This is attempt 4 of 89.
+This is attempt 3 of 89.
+This is attempt 2 of 89.
+This is attempt 1 of 89.
+This is attempt 0 of 89.
+
+9876543210
+0123456789
+
+The / is right before 9 in the ASCII table
+The : is right after 0 in the ASCII table
+
+And done :)
